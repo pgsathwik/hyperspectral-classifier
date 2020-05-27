@@ -9,10 +9,10 @@ Bands = ["Name"]
 df = pd.read_csv("band.csv", usecols=Bands)
 
 
-image_folder_name = 'EO1H1480472016328110PZ' 
+image_folder_name = 'EO1H1480472016328110PZ' #input the foldername with the images
 image_format = 'tif' 
 band_names = [Bands] 
-Nsamples = 20000 
+Nsamples = 20000 #random samples used to train kmeans
 NUMBER_OF_CLUSTERS = 4  
 colour_map = 'terrain' 
 
